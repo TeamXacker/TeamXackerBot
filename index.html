@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TeamXackerBot | Telegram Multi-Tool Bot</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-sans transition-colors duration-300">
+  <div class="max-w-3xl mx-auto px-6 py-10">
+    <div class="flex justify-between items-center mb-6">
+      <h1 class="text-3xl font-bold text-blue-600 dark:text-blue-400">TeamXackerBot</h1>
+      <button id="toggleDark" class="bg-gray-200 dark:bg-gray-700 text-sm text-gray-800 dark:text-white px-4 py-2 rounded hover:shadow">
+        Toggle Dark Mode
+      </button>
+    </div>
+
+    <p class="text-lg font-medium mb-6">Multi-Tools Telegram Bot</p>
+
+    <p class="mb-6">
+      TeamXackerBot is your all-in-one Telegram assistant designed to handle everything from media downloads to text utilities, file converters, and group management — all directly from Telegram chat.
+    </p>
+
+    <h2 class="text-2xl font-semibold text-blue-500 dark:text-blue-400 mb-2">Features</h2>
+    <ul class="list-disc list-inside mb-6 space-y-1">
+      <li>File Tools: ZIP, PDF creator, archive extractor</li>
+      <li>Text Utilities: QR code, translation, Base64</li>
+      <li>Media Downloader: YouTube, Instagram, TikTok</li>
+      <li>Group Admin: Welcome messages, anti-flood, rules</li>
+      <li>Misc Tools: URL shortener, IP lookup, random facts</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-blue-500 dark:text-blue-400 mb-2">Privacy Policy</h2>
+    <p class="mb-4">We take privacy seriously. Here's how your data is handled:</p>
+    <ul class="list-disc list-inside mb-6 space-y-1">
+      <li>No unnecessary personal data is collected.</li>
+      <li>All actions comply with Telegram’s privacy standards.</li>
+      <li>No data is sold, rented, or shared with third parties.</li>
+      <li>Users can request data deletion via the developer contact.</li>
+    </ul>
+
+    <h2 class="text-2xl font-semibold text-blue-500 dark:text-blue-400 mb-2">Developer Info</h2>
+    <p class="mb-1">Built and maintained by <strong>Team Xacker</strong></p>
+    <p class="mb-1">Telegram: <a href="https://t.me/@Tech_Builder_404" class="text-blue-600 hover:underline">40͢͢͢4 么『TECH』x及ùᶤ𝘭𝗱еᵣ</a></p>
+    <p class="mb-6">GitHub: <a href="https://github.com/TeamXacker" target="_blank" class="text-blue-600 hover:underline">github.com/TeamXacker</a></p>
+
+    <div class="text-sm text-center text-gray-500 dark:text-gray-400 border-t pt-4">
+      &copy; 2025 TeamXackerBot. All rights reserved.
+    </div>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('toggleDark');
+    toggleBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
